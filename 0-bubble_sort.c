@@ -40,29 +40,3 @@ void bubble_sort(int *array, size_t size)
 		}
 	}
 }
-/**
- * print_array - Prints an array of integers.
- *
- * This function prints the elements of an integer
- * array to the standard output.
- *
- * @arr: Pointer to the array of integers.
- * @n: Number of elements in the array.
- */
-void print_array(int *arr, size_t n)
-{
-	size_t i;
-
-	for (i = 0; i < n; i++)
-	{
-		if (i == 0)
-		{
-			printf("%d", arr[i]);
-		}
-		else
-		{
-			printf(", %d", arr[i]);
-		}
-	}
-	printf("\n");
-}
