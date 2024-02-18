@@ -1,7 +1,6 @@
 #include <stdio.h>
+#include "sort.h"
 
-void print_array(int *arr, size_t n);
-void bubble_sort(int *array, size_t size);
 /**
  * bubble_sort - Sorts an array of integers in ascendin
  * order using bubble sort.
